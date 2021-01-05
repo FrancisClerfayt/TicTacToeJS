@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #505050;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  border-bottom: 1px solid #c7c7c7;
+  color: #b1b1b1;
+  font-size: 45px;
+  text-align: center;
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+}
+
+footer > p {
+  color: #989494;
+  padding: 1em 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 4.5em 0;
+}
+
+.left {
+  display: inline-block;
+  width: 65%;
+}
+
+.left > table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  height: 450px;
+  margin: 0 auto;
+  width: 450px;
+}
+
+.left table tr td {
+  border: 2px solid #c7c7c7;
+  height: 150px;
+  overflow: hidden;
+  width: 150px;
+}
+
+.left table tr td a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 34%;
+}
+
+.score {
+  display : block;
+  margin-left: 0.5em;
+  text-align: center;
+}
+
+.score h2 {
+  color: #096a8e;
+  text-transform: uppercase;
+}
+
+.score > p {
+  color: #989494;
+  font-size: 20px;
+  margin-left: 2.5em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.draw {
+  color: #f37777;
+  font-size: 35px;
+  text-align: center;
+}
+
+.reset {
+  margin: 3em 0 3.5em 0;
+  text-align: center;
+}
+
+.reset > a {
+  border: 1px solid #096a8e;
+  color: #6b6868;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.7s;
+}
+
+.reset > a:hover {
+  background-color: #096a8e;
+  color: #ffffff;
+}
+
+.fa-times {
+  color: blue;
+  font-size: 9em;
+}
+
+.fa-circle {
+  color: red;
+  font-size: 9em;
+}

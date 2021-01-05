@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="author" content="Francis Clerfayt">
+  <meta name="description" content="A simple HTML/CSS/JS Tic Tac Toe for practice">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Tic Tac Toe</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <header>
+    <h1>TIC TAC TOE</h1>
+  </header>
+  
+  <section class="container">
+    <div class="left">
+      <table id="board">
+        <tr>
+          <td><a href=""></a></td>
+          <td><a href=""></a></td>
+          <td><a href=""></a></td>
+        </tr>
+        <tr>
+          <td><a href=""></a></td>
+          <td><a href=""></a></td>
+          <td><a href=""></a></td>
+        </tr>
+        <tr>
+          <td><a href=""></a></td>
+          <td><a href=""></a></td>
+          <td><a href=""></a></td>
+        </tr>
+      </table>
+    </div>
+    <div class="right">
+      <div class="score">
+        <p id="message"></p>
+        <h2>Score</h2>
+        <p>Nombre de parties : <span id="games_number">0</span></p>
+        <p>Joueur X : <span id="player_x_point">0</span></p>
+        <p>Joueur O : <span id="player_o_point">0</span></p>
+      </div>
+      <div class="reset">
+        <a href="" id="reset">RESET</a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>All right reserved. Copyright Francis Clerfayt</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
